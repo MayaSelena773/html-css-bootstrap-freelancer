@@ -1,7 +1,12 @@
 
 /*HEADER*/
 
-.ms_back_blue {
+header {
+    background-color: lightcoral;
+    height: 80px;
+}
+
+.back-azure {
     background-color: aqua;
-    height: 500px;
+    height: 400px;
 }
