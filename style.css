@@ -1,10 +1,48 @@
 
+/*COMMON*/
+
+.white-text {
+    color: white;
+}
+
+.flex-btw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
 /*HEADER*/
 
 header {
-    background-color: lightcoral;
+    background-color: rgb(44, 58, 81);
     height: 80px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
+
+.brand {
+    font-size: 1.2rem;
+}
+
+header nav {
+    text-align: right;
+}
+
+.burger-menu {
+    font-size: 1.5rem;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+
+
+/*MAIN*/
 
 .back-green {
     background-color: lightgreen;
