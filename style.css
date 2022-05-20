@@ -17,11 +17,22 @@ ul {
     font-size: 2rem;
 }
 
-.star:before {
-    content: "";
-    width: 30px;
+.star::before { 
+    display: inline-block;
+    content: '';
+    width: 50px;
     height: 3px;
     background-color: white;
+    vertical-align: middle;
+}
+
+.star::after { 
+    display: inline-block;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    vertical-align: middle;
 }
 
 /*HEADER*/
@@ -78,6 +89,8 @@ section {
     font-weight: 700;
     font-size: xx-large;
 }
+
+/*portfolio-section*/
 
 .box_img {
     width: 100%;
