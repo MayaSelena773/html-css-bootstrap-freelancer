@@ -5,14 +5,12 @@
     color: white;
 }
 
-.flex-btw {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 ul {
     list-style-type: none;
+}
+
+.s_none {
+    display: none;
 }
 
 /*HEADER*/
@@ -22,6 +20,7 @@ header {
     height: 80px;
     text-transform: uppercase;
     font-weight: 700;
+    line-height: 80px;
 }
 
 .brand {
@@ -38,15 +37,25 @@ header nav {
 
 .main-menu li {
     display: inline-block;
+    margin-left: 1rem;
 }
-
-
 
 /*MAIN*/
 
+/*start-section*/
+
 .back-green {
-    background-color: lightgreen;
-    height: 400px;
+    background-color: rgb(0, 201, 159);
+}
+
+.start-img {
+    width: 250px;
+}
+
+.start-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: xx-large;
 }
 
 .box_img {
