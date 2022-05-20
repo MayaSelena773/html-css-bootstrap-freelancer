@@ -13,6 +13,17 @@ ul {
     display: none;
 }
 
+.star {
+    font-size: 2rem;
+}
+
+.star:before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+
 /*HEADER*/
 
 header {
@@ -40,12 +51,23 @@ header nav {
     margin-left: 1rem;
 }
 
+.main-menu a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1rem;
+ }
+
 /*MAIN*/
 
 /*start-section*/
 
 .back-green {
     background-color: rgb(0, 201, 159);
+    text-transform: uppercase;
+}
+
+section {
+    padding: 3rem 0;
 }
 
 .start-img {
@@ -53,7 +75,6 @@ header nav {
 }
 
 .start-title {
-    text-transform: uppercase;
     font-weight: 700;
     font-size: xx-large;
 }
