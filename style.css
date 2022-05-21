@@ -74,7 +74,7 @@ header nav {
 
 .back-green {
     background-color: rgb(0, 201, 159);
-    text-transform: uppercase;
+    font-weight: bold;
 }
 
 section {
@@ -105,10 +105,30 @@ section {
     border-radius: 10px;
 }
 
+/*about-section*/
+
+.ms_small_container {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-white {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+
+/*gray-section*/
+
 .back_gray {
     background-color: lightslategray;
     height: 300px;
 }
+
+/*footer*/
 
 .gray_footer {
     background-color: gray;
