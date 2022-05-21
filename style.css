@@ -20,7 +20,7 @@ ul {
 .star::before { 
     display: inline-block;
     content: '';
-    width: 50px;
+    width: 60px;
     height: 3px;
     background-color: white;
     vertical-align: middle;
@@ -29,7 +29,7 @@ ul {
 .star::after { 
     display: inline-block;
     content: '';
-    width: 50px;
+    width: 60px;
     height: 3px;
     background-color: white;
     vertical-align: middle;
@@ -92,10 +92,17 @@ section {
 
 /*portfolio-section*/
 
+.black::before {
+    background-color: black;
+}
+
+.black::after {
+    background-color: black;
+}
+
 .box_img {
     width: 100%;
-    height: 300px;
-    background-color: plum;
+    border-radius: 10px;
 }
 
 .back_gray {
