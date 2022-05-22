@@ -109,6 +109,7 @@ section {
 
 .ms_small_container {
     width: 60%;
+    max-width: 1170px;
     margin: 0 auto;
     text-align: center;
 }
@@ -121,16 +122,14 @@ section {
 }
 
 
-/*gray-section*/
+/*footer*/
 
-.back_gray {
-    background-color: lightslategray;
+.light_gray {
+    background-color: rgb(58, 84, 109);
     height: 300px;
 }
 
-/*footer*/
-
-.gray_footer {
-    background-color: gray;
+.dark_gray {
+    background-color: rgb(44, 62, 80);
     height: 80px;
 }
